@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  list-style-type: none;
+  text-decoration: none;
+}
+.menu {
+	display: flex;
+	position: fixed;
+	width: 100%;
+}
+.menu_li {
+    letter-spacing: 5px;
+    width: 100%;
+	display:flex;
+	justify-content:space-evenly;
+    text-align: center;
+	background-color: #300c33;
+	padding: 15px 0px 15px 0px;
+}
+.menu_li a {
+    color:#f6f7f6;
+	font-size: 30px;
+}
+.menu_li a:hover{
+	 opacity:0.5;
+ color:#44d832;
+}
+.main_image {
+	width: 100%;
+}
+.main_image img {
+    width: 100%;
+	margin-top:65px;
+    height: 600px;
+}
+.heading {
+    font-size: 50px;
+    letter-spacing: 30px;
+    text-align: center;
+	margin:30px auto;
+}
+.heading a {
+    border-bottom: 5px solid;
+	color: #300c33;
+}
+.sub_images_div {
+	width: 100%;
+	display:flex;
+	justify-content:space-evenly;
+	margin-top: 60px;
+}
+.sub_div {
+
+}
+.sub_div img {
+	width:255px;
+	height: 225px;
+	border: 1px solid black;
+}
+.sub_div img:hover{
+	opacity: 0.7;
+}
+.sub_head {
+    text-align: center;
+    margin-top: 15px;
+	text-decoration: underline;
+}
+.sub_head a{
+	font-size: 30px;
+	color: #300c33;
+}
+.sub_images img:hover{
+	opacity: 0.7;
+}
+.para {
+    font-size: 19px;
+    text-align: center;
+    margin: 50px auto;
+    letter-spacing: 2px;
+    line-height: 2;
+    background-color: #300c3338;
+    border-radius: 60px 20px 60px 20px;
+    width: 58%;
+	color: #300c33;
+	border: 2px solid;
+}
+.sub {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: -50px auto;
+}
+.video {
+    border:5px solid;
+	margin-top: 60px;
+	width:600px;
+	height:400px;
+}
+.minchu {
+    font-size: 40px;
+    color: #300c33;
+    letter-spacing: 5px;
+	line-height:2;
+	margin-top:105px;
+}
+.footer {
+    background-color: #300c33;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px 10px 10px 10px;
+    width: 50%;
+    margin: 100px auto;
+}
+.mail {
+    font-size: 30px;
+}
+.mail a{
+	color:white;
+	letter-spacing:2px;
+}
+.mail a:hover{
+	      color: #44d832;
+		  opacity:0.5;
+}
+.media {
+    display: flex;
+	margin-top:6px;
+}
+.media_img  {
+    width: 50px;
+}
+.media_img:hover{
+	opacity: 0.5;
+}
